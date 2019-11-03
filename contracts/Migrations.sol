@@ -2,7 +2,7 @@ pragma solidity >=0.4.21 <0.6.0;
 
 const MyERC721 = artifacts.require("./MyERC721.sol");
 module.exports = async function(deployer) {
-  await deployer.deploy(MyERC721, "MyERC721 Token", "MyERC721")
+  await deployer.deploy(MyERC721, "CAT1 Token", "CAT1")
   const erc721 = await MyERC721.deployed()
 }
 
